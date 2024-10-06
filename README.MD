@@ -7,6 +7,7 @@ The **Pet House Application** is a user-friendly web application designed to hel
 - **View Available Pets**: Browse through a variety of pets available for adoption.
 - **Filter by Category**: Easily navigate through different categories of pets.
 - **Adoption Process**: Adopt a pet with a confirmation modal.
+- **Spinning process**:If your net slow and undable to gain category fast then you will see spinning for while    !Else you can see it when the page is refreshed. 
 - **Favorite Pets**: like  your favorite pets to a list for easy reference.
 
 ## ES6 Features Used
