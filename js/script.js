@@ -4,7 +4,7 @@ let isFetching = false;
 
 const loadAllPet = () => {
     const spinner = document.getElementById('spinner');
-    spinner.classList.remove('hidden'); 
+    spinner.classList.remove('hiddenn'); 
 
     fetch('https://openapi.programming-hero.com/api/peddy/pets')
         .then(res => res.json())
@@ -195,8 +195,6 @@ const showError = (message) => {
 };
 
 
-
-
 const loadPetDetails = async (petId)=>{
   const uri = `https://openapi.programming-hero.com/api/peddy/pet/${petId} `
   const res = await fetch (uri)
@@ -232,7 +230,5 @@ const displayPetDetails =(petData) => {
 }
 
 
-
-// Initialize category and pets
 loadPetCategory();
 loadAllPet();
