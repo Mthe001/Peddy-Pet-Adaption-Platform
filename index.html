@@ -58,7 +58,7 @@
         <div class="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"/>
+            src="https://img.icons8.com/?size=48&id=120353&format=png"/>
         </div>
       </div>
       <ul
@@ -114,18 +114,107 @@
             <nav id="catagery_of-pet" class="py-3 gap-2 flex justify-evenly max-[630px]:grid max-[630px]:grid-cols-2 items-center"></nav>
             <div class="flex justify-between items-center w-10/12 mx-auto py-3">
                 <h1 class="font-bold text-2xl">Best Deal For You</h1>
-                <button id="sort-by-price" class="btn bg-green-700 text-white">Sort By Price</button>
+                <button id="sort-by-price"  onclick="sortPetsByPrice()" class="btn bg-green-700 text-white">Sort By Price</button>
             </div>
         </section>
 
         <!-- Card section -->
         <section id="pet-card" class="w-11/12 mx-auto flex gap-1">
-            <div id="pet-card-container" class="w-8/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
-            <div id="display-pet-img-container" class="w-3/12 mx-auto grid grid-cols-2 max-[630px]:grid-cols-1 h-[50px]"></div>
+            <div id="pet-card-container" class="w-8/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5"></div>
+            <div id="display-pet-img-container" class="w-3/12 mx-auto grid grid-cols-2 max-[630px]:grid-cols-1 h-[400px] border-2 border-gray-300 rounded-xl"></div>
         </section>
+
+
+
+
+      
+
+
+        <!-- Button to open the modal -->
+<button class="btn hidden" onclick="openAdoptModal()">Adopt</button>
+
+<!-- Modal Structure -->
+<dialog id="adoptModal" class="modal">
+  <div class="modal-box">
+    <h3 class="text-lg font-bold">Adoption Successful!</h3>
+    <p class="py-4">Your pet has been adopted successfully!</p>
+    <span id="countdown" class="text-gray-500 font-semibold text-2xl">5</span>
+    <div class="modal-action">
+      <button class="btn" onclick="closeModal()">Close</button>
+    </div>
+  </div>
+</dialog>
+
+
+
+
+
+
+<!-- Open the modal using ID.showModal() method -->
+<button id="showModaldata" class="btn hidden" onclick="customModal.showModal()"></button>
+<dialog id="customModal" class="modal">
+  <div class="modal-box">
+    
+    <div id="modal-content" class=" justify-center items-center">
+
+     </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+
     </main>
 
     <!-- Footer  -->
+
+    <footer class="bg-black w-full h-auto mt-5">
+     
+      <section class="w-11/12 mx-auto p-10 flex max-[630px]:flex-col justify-evenly">
+       
+        <div class="p-5">
+          <a class="text-white font-bold text-3xl flex gap-2 py-3"><img src="./assets/logo.webp" class="w-10 h-8" alt="logo"> Peddy</a>
+          <span class="py-3"> 
+          <h3 class="text-gray-300 font-normal text-l">Location: av.Dhaka 125/Arambag, Dhaka-1010</h3>
+          <h3 class="text-gray-300 font-normal text-l" >Phone: +31 146 41 541</h3>
+          <h3 class="text-gray-300 font-normal text-l">Email:info@pethouse.come</h3>
+          <h3 class="text-gray-300 font-normal text-l">Open in: 9.00 AM -5.00 PM</h3>
+          </span>
+
+          <span class="flex gap-2 py-2">
+            <a><img src="https://img.icons8.com/?size=48&id=uLWV5A9vXIPu&format=png" alt="#"></a>
+            <a><img src="https://img.icons8.com/?size=48&id=rvuyWt2dGkYX&format=png" alt="#"></a>
+            <a><img class="w-12 h-12" src="https://img.icons8.com/?size=64&id=43625&format=png" alt="#"></a>
+            <a><img src="https://img.icons8.com/?size=48&id=19318&format=png" alt="#"></a>
+          </span>
+        </div>
+
+        <div class="p-6">
+            <h1 class="text-gray-300 font-semibold text-xl">Usful Links</h1>
+             <ul class="py-5 flex flex-col gap-1">
+              <li class="text-gray-500 font-normal">Home</li>
+              <li class="text-gray-500 font-normal">About Us</li>
+              <li class="text-gray-500 font-normal">Animals</li>
+              <li class="text-gray-500 font-normal">Foundation</li>
+              <li class="text-gray-500 font-normal">Contact</li>
+             </ul>
+        </div>
+        <div class="p-5 flex flex-col">
+            <h1 class="text-gray-200 font-semibold text-2xl pb-5">Drop a Message</h1>
+          
+            <input type="text" placeholder="Enter your email" class="text-xl text-gray-400 max-[630px]:px-7 max-[630px]:py-3 px-10 py-5 rounded-xl bg-gray-900" >
+            <button class="mt-3 btn bg-teal-700 text-gray-200 px-10 border-0 text-xl py5">Subscribe</button>
+
+        </div>
+         
+
+      </section>
+
+    </footer>
 
     <!-- JS script -->
     <script src="./js/script.js"></script>

@@ -117,3 +117,21 @@ img {
         background-color: rgba(255, 255, 255, 1);
     }
 }
+
+
+
+        .modal {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#display-pet-img-container{
+    overflow-y: scroll;
+}
