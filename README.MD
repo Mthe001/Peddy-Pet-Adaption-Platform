@@ -28,3 +28,29 @@ To run the **Pet House Application** locally on your machine, follow these steps
 1. **Clone the repository**:  
    ```bash
    git clone https://github.com/Mthe001/Peddy-Pet-Adoption-Platform.git
+   ```
+
+2. **Navigate to the project directory**:  
+   ```bash
+   cd Peddy-Pet-Adoption-Platform
+   ```
+
+3. **Install dependencies**:  
+   ```bash
+   npm install
+   ```
+
+4. **Run the application**:  
+   ```bash
+   npm start
+   ```
+
+5. **Open the application in your browser**:  
+   Visit `http://localhost:3000` to view the application.
+
+## Creator Info  
+This project was created by **Redwan Ul Haque**.  
+- **Email**: [mtheredwanulhaque@gmail.com](mailto:mtheredwanulhaque@gmail.com)  
+- **Contact**: +8801614591672  
+
+Feel free to reach out for any inquiries or collaborations!
