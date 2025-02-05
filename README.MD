@@ -29,14 +29,14 @@ To run the **Pet House Application** locally on your machine, follow these steps
    ```bash
    git clone https://github.com/Mthe001/Peddy-Pet-Adoption-Platform.git
 
-Creator Information
-This project was created by Mthe001.
+## Creator Information
+This project was created by Md Redwanul Haque.
 
-Email: mtheredwanulhaque@gmail.com
-Contact: +8801614591672
-Feel free to reach out via email or phone for any questions, suggestions, or feedback.
+-- **Email**: mtheredwanulhaque@gmail.com
+-- **Contact**: +8801614591672
+-- Feel free to reach out via email or phone for any questions, suggestions, or feedback.
 
-Contributing
+## Contributing
 Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
 
 Thank you for checking out the Pet Adoption Application! We hope you find your new furry friend!
