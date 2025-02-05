@@ -19,7 +19,7 @@ This project utilizes several ES6 features, including:
 - **Destructuring**: To extract values from objects and arrays in a more readable manner.
 
 ## Live Demo
-Check out the live version of the project here: [Live Demo]()
+Check out the live version of the project here: [Live Demo](https://quiet-hotteok-29aa49.netlify.app/)
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, please feel free to open an issue or submit a pull request.
